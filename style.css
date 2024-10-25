@@ -7,5 +7,21 @@ body {
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 77vh;
+    margin: 0;
+    background-color: rgb(3, 1, 1);
+}
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(22, 18, 18, 0.322);
+    border: 2px solid rgb(94, 92, 92);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3)
 }
